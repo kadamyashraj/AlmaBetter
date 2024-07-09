@@ -1,0 +1,19 @@
+Yes Bank Stock Price Analysis
+This repository contains a dataset of Yes Bank's closing stock prices for 185 months. The data is provided in a CSV format and includes the following columns:
+
+Date: The month in string format (e.g., "2020-01")
+Open: The opening price for the month
+High: The highest price for the month
+Low: The lowest price for the month
+Close: The closing price for the month
+Data Quality
+
+The "Date" column is currently stored as a string and will be converted to a datetime format for further analysis.
+There are no missing values in the dataset.
+Analysis Overview
+
+This project aims to analyze the historical closing stock prices of Yes Bank. We will perform the following:
+
+Descriptive Statistics: We will calculate descriptive statistics like mean, median, standard deviation, etc., to understand the distribution of the closing prices.
+Outlier Detection: We will identify and handle outliers in the data, as they can significantly impact the performance of machine learning models. (Future steps can include exploring time series analysis or building predictive models)
+This is an initial exploration of the data. Further analysis and visualizations can be built upon this foundation.
